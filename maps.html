@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/maps.css">
+    <title>Mapas</title>
+</head>
+<body>
+    <header>
+        <img src="assets/img/1280px-Valorant_logo_-_pink_color_version.svg.png" id="img_logo" alt="" width="60px"
+            height="50px">
+        <ul>
+            <li><a href="index.html" class="a_target">Home</a></li>
+            <li><a href="formulario.html" class="a_target">Agentes</a></li>
+            <li><a href="#" class="a_target">Mapas</a></li>
+            <li><a href="faleconosco.html" class="a_target">Fale conosco</a></li>
+        </ul>
+        <div class="user_login">
+            <div class="login_area">
+                <img src="assets/img/free-user-login-icon-305-thumb.png" alt="" class="user" width="25px" height="25px">
+                <input type="text" placeholder="Login">
+                <input type="text" placeholder="Senha">
+                <button id="button_login" onclick="logar()">Acessar</button>
+                <a href="newaccount.html" class="create_account">Criar conta</a>
+            </div>
+            <div class="logado">
+                <div class="Success">
+                    <img src="assets/img/Ok.png" alt="" width="20px">
+                    <span>Logado com sucesso !</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="area_maps">
+            <div class="map_selected">
+                <img src="assets/img/Ascent.png" alt="" for="ascent">
+                <img src="assets/img/Bind.png" alt="" for="bind">
+                <img src="assets/img/Breeze.png" alt="" for="breeze">
+                <img src="assets/img/Fracture.png" alt="">
+                <img src="assets/img/Haven.png" alt="">
+                <img src="assets/img/Icebox.png" alt="">
+                <img src="assets/img/Pearl.png" alt="">
+                <img src="assets/img/Split.png" alt="">
+            </div>
+            <div class="select_map">
+                <input type="radio" class="radio" name="map" id="ascent">
+                <label for="ascent" class="map_selected">Ascent</label>
+                <input type="radio" class="radio" name="map" id="bind">
+                <label for="bind" class="map_selected">Bind</label>
+                <input type="radio" class="radio" name="map" id="breeze">
+                <label for="breeze" class="map_selected">Breeze</label>
+                <input type="radio" class="radio" name="map" id="fracture">
+                <label for="fracture" class="map_selected">Fracture</label>
+                <input type="radio" class="radio" name="map" id="haven">
+                <label for="haven" class="map_selected">Haven</label>
+                <input type="radio" class="radio" name="map" id="icebox">
+                <label for="icebox" class="map_selected">Icebox</label>
+                <input type="radio" class="radio" name="map" id="pearl">
+                <label for="pearl" class="map_selected">Pearl</label>
+                <input type="radio" class="radio" name="map" id="split">
+                <label for="split" class="map_selected">Split</label>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

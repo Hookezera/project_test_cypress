@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 70px !important;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    border-bottom: 1px solid #bebebe85;
+}
+ul li, .a_target{
+    list-style: none;
+    text-decoration: none;
+    margin: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: #DD1400;
+    font-size: 1.3rem;
+    transition: .2s;
+}
+.a_target:hover{
+    color: #9c807d ;
+}
+.login_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user_login{
+    display: flex;
+    align-items: center;
+}
+.user_login input{
+    width: 100px;
+}
+.create_account{
+    margin-left: 6px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+#button_login{
+    width: 6rem;
+    height: 1.3rem;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.logado{
+    display: none;
+}
+.Success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Success span{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 5px;
+}
+main{
+    height: auto;
+    padding: 5.5% 11.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fale_conosco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size:3rem ;
+    background-color: #2e2928;
+    padding: 25px;
+    border-radius: 50px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+.fale_conosco img{
+    width: 3rem;
+    margin: 0 25px 0 25px
+}
+.talking_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+.talking_us label{
+    margin-bottom: 10px;
+}
+.talking_us input, select{
+    width: 10rem;
+    height: 1.4rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 0 15px 0 15px;
+}
+textarea{
+    border: 1px solid;
+    border-radius: 5px;
+}
+.send{
+    width: 16rem;
+    height: 3rem;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.account_created{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+}
+.account_created img{
+    width: 20rem;
+}

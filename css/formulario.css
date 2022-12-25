@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 70px !important;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    border-bottom: 1px solid #bebebe85;
+}
+ul li, .a_target{
+    list-style: none;
+    text-decoration: none;
+    margin: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: #DD1400;
+    font-size: 1.3rem;
+    transition: .2s;
+}
+.a_target:hover{
+    color: #9c807d ;
+}
+.login_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user_login{
+    display: flex;
+    align-items: center;
+}
+.user_login input{
+    width: 100px;
+}
+.create_account{
+    margin-left: 6px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+#button_login{
+    width: 6rem;
+    height: 1.3rem;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.logado{
+    display: none;
+}
+.Success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Success span{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 5px;
+}
+main{
+    height: auto;
+    padding: 5.5% 11.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title_agents{
+    border-bottom: 1px solid #bebebe85 ;
+    padding-bottom: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+}
+.agents_area_input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    transition: .5s;
+    cursor: pointer;
+}
+.agents_area_input label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid #bebebe85;
+}
+.agents_area_input img{
+    transition: .2s;
+}
+.agents_area_input img:hover{
+    width: 20rem;
+}
+.agents_area_input:hover{
+    background-color: #a50f0196;
+    color: #fff;
+}
+.area_agents{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    gap:4rem;
+}
+.agents_checkbox{
+    display: flex;
+}
+.area_close{
+    display: none;
+}
+.close_modal{
+    width: 100%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+#close_modal{
+    width: 1.5rem;
+    filter:invert(100%);
+    cursor: pointer;
+}
+.skills_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    background-color: black;
+    top: 10rem;
+    position: fixed;
+    z-index: 1000;
+}
+.img_skill{
+    display: flex;
+}
+.img_skills{
+    margin: 1.3rem;
+    padding: 2rem;
+    transition: .3s;
+}
+.img_skills:hover{
+    background-color: #a50f0196;
+}
+.info_skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info_skills span{
+    margin-top: 15px;
+}
