@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Testando - Champions</title>
+</head>
+
+<body>
+    <header>
+        <img src="../assets/img/1280px-Valorant_logo_-_pink_color_version.svg.png" id="img_logo" alt="" width="60px"
+            height="50px">
+        <ul>
+            <li><a href="index.html" class="a_target">Home</a></li>
+            <li><a href="#" class="a_target">Agentes</a></li>
+            <li><a href="maps.html" class="a_target">Mapas</a></li>
+            <li><a href="faleconosco.html" class="a_target">Fale conosco</a></li>
+        </ul>
+        <div class="user_login">
+            <div class="login_area">
+                <img src="../assets/img/free-user-login-icon-305-thumb.png" alt="" class="user" width="25px" height="25px">
+                <input type="text" placeholder="Login">
+                <input type="text" placeholder="Senha">
+                <button id="button_login" onclick="logar()">Acessar</button>
+                <a href="newaccount.html" class="create_account">Criar conta</a>
+            </div>
+            <div class="logado">
+                <div class="Success">
+                    <img src="../assets/img/Ok.png" alt="" width="20px">
+                    <span>Logado com sucesso !</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="title_agents">
+            <h1>Agentes</h1>
+        </div>
+        <div class="area_close">
+            <div class="skills_area">
+                <div class="skills_info">
+                    <div class="close_modal" onclick="toggle()">
+                        <img src="../assets/img/close-button.png" alt="" id="close_modal">
+                    </div>
+                    <div id="title_skills">
+                        <span>Skills do personagem</span>
+                    </div>
+                    <div class="img_skill">
+                        <div class="info_skills">
+                            <a href=""><img src="../assets/img/Q Brim.png" alt="" class="img_skills"></a>
+                            <input type="checkbox">
+                            <span for="">Entendi essa skill</span>
+                        </div>
+                        <div class="info_skills">
+                            <a href=""><img src="../assets/img/E Brim.png" alt="" class="img_skills"></a>
+                            <input type="checkbox">
+                            <span for="">Entendi essa skill</span>
+                        </div>
+                        <div class="info_skills">
+                            <a href=""><img src="../assets/img/C Brim.png" alt="" class="img_skills"></a>
+                            <input type="checkbox">
+                            <span for="">Entendi essa skill</span>
+                        </div>
+                        <div class="info_skills">
+                            <a href=""><img src="../assets/img/X Brim.png" alt="" class="img_skills"></a>
+                            <input type="checkbox">
+                            <span for="">Entendi essa skill</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="area_agents">
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Breach.png" alt="" width="250rem">
+                <label for="Breach">Breach</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Jett.png" alt="" width="250rem">
+                <label for="Breach">Jett</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Harbor.png" alt="" width="250rem">
+                <label for="Breach">Harbor</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Fade.png" alt="" width="250rem">
+                <label for="Breach">Fade</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Cypher.png" alt="" width="250rem">
+                <label for="Breach">Cypher</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Chamber.png" alt="" width="250rem">
+                <label for="Breach">Chamber</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Brimstone.png" alt="" width="250rem">
+                <label for="Breach">Brimstone</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Astra.png" alt="" width="250rem">
+                <label for="Breach">Astra</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/KAYO.png" alt="" width="250rem">
+                <label for="Breach">Kayo</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Killjoy.png" alt="" width="250rem">
+                <label for="Breach">Killjoy</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Neon.png" alt="" width="250rem">
+                <label for="Breach">Neon</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Omen.png" alt="" width="250rem">
+                <label for="Breach">Omen</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Phoenix.png" alt="" width="250rem">
+                <label for="Breach">Phoenix</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Rayne.png" alt="" width="250rem">
+                <label for="Breach">Reyna</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Raze.png" alt="" width="250rem">
+                <label for="Breach">Raze</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Sage.png" alt="" width="250rem">
+                <label for="Breach">Sage</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Skye.png" alt="" width="250rem">
+                <label for="Breach">Skye</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Sova.png" alt="" width="250rem">
+                <label for="Breach">Sova</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Viper.png" alt="" width="250rem">
+                <label for="Breach">Viper</label>
+            </div>
+            <div class="agents_area_input" onclick="abrir()">
+                <img src="../assets/img/pers/Yoru.png" alt="" width="250rem">
+                <label for="Breach">Yoru</label>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../scripts/formulario.js"></script>
+</html>

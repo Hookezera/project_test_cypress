@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./source/index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hookezera/project_test_cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hookezera/project_test_cypress/issues"
+  },
+  "homepage": "https://github.com/Hookezera/project_test_cypress#readme",
+  "dependencies": {
+    "cypress": "^9.5.1"
+  }
+}

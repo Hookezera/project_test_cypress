@@ -60,6 +60,7 @@ ul li, .a_target{
     display: flex;
     align-items: center;
     justify-content: center;
+    visibility: visible;
 }
 .Success span{
     font-family: 'Bebas Neue', cursive;
